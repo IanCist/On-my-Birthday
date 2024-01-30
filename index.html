@@ -15,8 +15,7 @@
 <body>
     <header>
         <div class="container mt-4 text-center">
-            <div class="card bg-black text-white rounded-5
-            ">
+            <div class="card bg-black text-white rounded-5 d-flex justify-content-center">
                 <div class="card-body">
                     <h1 class="card-title fs-3">On my Birthday</h1>
                     <p class="card-text mt-3">Welcome to my website dedicated to the significant events that unfolded on
@@ -32,38 +31,16 @@
         <div class="container mt-5">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <!--card 1 -->
-                <div class="col-4">
-                    <div class="card border-0">
+                <div class="col mb-3">
+                    <div class="card border-0 ">
                         <img id="image1" src="pisa2construction.jpg" class="card-img-top" alt="Image 1">
-                        <div class="card-body d-flex flex-column align-items-center">
-                            <p class="card-text text-center">Aug 9th 1173</p>
-                            <btn class="btn btn-primary rounded mt-5">Learn More.</btn>
-                        </div>
-                    </div>
-                </div>
-
-                <!--card 2 -->
-                <div class="col-4">
-                    <div class="card border-0">
-                        <img src="your_image_url1.jpg" class="card-img-top" alt="Image 1">
-                        <div class="card-body d-flex flex-column align-items-center">
-                            <p class="card-text text-center">Description for Image 1.</p>
-                            <btn class="btn btn-primary rounded mt-5">Learn More.</btn>
-                        </div>
-                    </div>
-                </div>
-
-                <!--card 3 -->
-                <div class="col-4">
-                    <div class="card border-0">
-                        <img src="your_image_url1.jpg" class="card-img-top" alt="Image 1">
-                        <div class="card-body d-flex flex-column align-items-center">
-                            <p class="card-text text-center">Description for Image 1.</p>
-                            <btn class="btn btn-primary rounded mt-5">Learn More.</btn>
+                        <div class="card-body d-flex flex-column ">
+                            <p class="card-text text-center" id="text1">Aug 9th 1173</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <button class="btn btn-primary rounded mt-3" onclick="changeDate1173()">1173</button>
         </div>
     </main>
     <footer>
